@@ -1,0 +1,79 @@
+@font-face {
+    font-family: cute;
+    src: url(font/Owl\ Cute.ttf);
+}
+
+@font-face {
+    font-family: kawaii;
+    src: url(font/KINKEE__.TTF);
+} 
+
+body{
+    background-color: pink;
+    background: linear-gradient(to right, #f5b6b6, #ec96c1); 
+    font-family: cute;
+}
+
+.container.oscuro{
+    background-color: rgb(128, 49, 160);
+    color: aqua;
+}
+
+h1, h2{
+    margin: 0 auto;
+    text-align: center;
+    color: #4b1530;
+}
+
+
+img{
+    width: 100px;
+    margin: 10px;
+}
+
+
+div.container{
+    background-color: #f8e3ed;
+    text-align: center;
+    width: fit-content;
+    padding: 30px;
+    margin: 10px auto;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.column select{
+    padding: 10px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+button {
+    background-color: #4b1530; 
+    width: 100%;
+    margin: 5px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    color: #f8e3ed;
+    transition: 0.2s;
+    font-family:  kawaii;
+
+}
+
+button:hover {
+    background-color: #e72c8d; 
+}
+
+.showGif{
+    justify-content: center;
+    display: flex;
+    display: block;
+}

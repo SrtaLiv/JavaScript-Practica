@@ -1,0 +1,19 @@
+Sintaxis
+element.insertAdjacentHTML(posición, texto);
+
+posición
+Un DOMString que representa la posición relativa al elemento, y 
+deberá ser una de las siguientes cadenas:
+
+'beforebegin': Antes que el propio elemento.
+'afterbegin': Justo dentro del elemento, antes de su primer elemento hijo.
+'beforeend': Justo dentro del elemento, después de su último elemento hijo.
+'afterend': Después del propio elemento.
+texto
+Es la cadena a ser analizada como HTML o XML e insertada en el árbol.
+
+
+Includes()
+includes() El método includes() determina si una cadena de texto 
+puede ser encontrada dentro de otra cadena de texto, 
+devolviendo true o false según corresponda.

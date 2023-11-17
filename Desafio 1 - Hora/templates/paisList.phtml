@@ -1,0 +1,21 @@
+<?php require './templates/header.phtml'; ?>
+
+<body>
+    <div class="container-pais">
+        <?php foreach ($paises as $pais) : ?>
+            <div class="card-pais">
+                <div class="card-info">
+                    <h2><a href="#"><?= $pais["timezone"] ?></a></h2>
+                    <h5 id="datetime" class="datetime"> <?= $pais['hora'] ?></h5>
+                    <h5> <?= $pais['fecha'] ?> </h5>
+                </div>
+            </div>
+        <?php endforeach ?>
+    </div>
+
+    <input type="button" id="button" value="Ampliar :)">
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>

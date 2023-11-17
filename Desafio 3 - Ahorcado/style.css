@@ -1,0 +1,14 @@
+.rayas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.raya{
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+    border-bottom: 0.2rem solid black;
+}
